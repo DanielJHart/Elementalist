@@ -1,0 +1,16 @@
+{
+  "ELEMENTALIST-ELEMENTALIST.title": "The Elementalist",
+  "ELEMENTALIST-ELEMENTALIST.titleObject": "The Elementalist",
+  "ELEMENTALIST-ELEMENTALIST.aromaPrinciple": "Lore",
+  "ELEMENTALIST-ELEMENTALIST.banter.alive.endTurnPing": "We need to keep moving.",
+  "ELEMENTALIST-ELEMENTALIST.banter.dead.endTurnPing": "...",
+  "ELEMENTALIST-ELEMENTALIST.cardsModifierDescription": "Elementalist cards will now appear in rewards and shops.",
+  "ELEMENTALIST-ELEMENTALIST.cardsModifierTitle": "Elementalist Cards",
+  "ELEMENTALIST-ELEMENTALIST.description": "An elemental mage from a long lost tribe.\nBends nature to their will to achieve victory.",
+  "ELEMENTALIST-ELEMENTALIST.eventDeathPrevention": "Co-op survival line",
+  "ELEMENTALIST-ELEMENTALIST.goldMonologue": "Line spoken when obtaining a large amount of gold",
+  "ELEMENTALIST-ELEMENTALIST.possessiveAdjective": "her",
+  "ELEMENTALIST-ELEMENTALIST.pronounObject": "her",
+  "ELEMENTALIST-ELEMENTALIST.pronounPossessive": "hers",
+  "ELEMENTALIST-ELEMENTALIST.pronounSubject": "she"
+}

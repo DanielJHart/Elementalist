@@ -1,0 +1,19 @@
+{
+  "ELEMENTALIST-STRIKE_ELEMENTALIST.title": "Strike",  
+  "ELEMENTALIST-STRIKE_ELEMENTALIST.description": "Deal {Damage:diff()} damage.",
+  
+  "ELEMENTALIST-DEFEND_ELEMENTALIST.title": "Defend",
+  "ELEMENTALIST-DEFEND_ELEMENTALIST.description": "Gain {Block:diff()} [gold]Block[/gold].",
+
+  "ELEMENTALIST-GO_TO_GROUND.title": "Go To Ground",
+  "ELEMENTALIST-GO_TO_GROUND.description": "Enter Earth stance.",
+
+  "ELEMENTALIST-SET_ABLAZE.title": "Set Ablaze",
+  "ELEMENTALIST-SET_ABLAZE.description": "Enter Fire stance.",
+
+  "ELEMENTALIST-LIFT_OFF.title": "Lift Off",
+  "ELEMENTALIST-LIFT_OFF.description": "Enter Air stance.",
+
+  "ELEMENTALIST-MAKE_WAVES.title": "Make Waves",
+  "ELEMENTALIST-MAKE_WAVES.description": "Enter Water stance."
+}
