@@ -15,5 +15,8 @@
   "ELEMENTALIST-LIFT_OFF.description": "Enter Air stance.",
 
   "ELEMENTALIST-MAKE_WAVES.title": "Make Waves",
-  "ELEMENTALIST-MAKE_WAVES.description": "Enter Water stance."
+  "ELEMENTALIST-MAKE_WAVES.description": "Enter Water stance.",
+
+  "ELEMENTALIST-FIRE_BOLT.title": "Fire Bolt",
+  "ELEMENTALIST-FIRE_BOLT.description": "Deal {Damage:diff()} damage. \nApply {Burn:diff()} [gold]Burn[/gold]."
 }

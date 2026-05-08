@@ -13,5 +13,13 @@
 
   "ELEMENTALIST-WATER_POWER.title": "Water",
   "ELEMENTALIST-WATER_POWER.description": "",
-  "ELEMENTALIST-WATER_POWER.smartDescription": ""
+  "ELEMENTALIST-WATER_POWER.smartDescription": "",
+
+  "ELEMENTALIST-BURN_POWER.title": "Burn",
+  "ELEMENTALIST-BURN_POWER.description": "Deals damage at the end of the turn. \nAlso applies [gold]Charred[/gold] when applied.",
+  "ELEMENTALIST-BURN_POWER.smartDescription": "Deal {Amount} damage at the end of this turn.",
+
+  "ELEMENTALIST-CHARRED_POWER.title": "Charred",
+  "ELEMENTALIST-CHARRED_POWER.description": "Increases the amount of [gold]Burn[/gold] applied to target.",
+  "ELEMENTALIST-CHARRED_POWER.smartDescription": "Increases [gold]Burn[/gold] applied to target by {Amount}."
 }
