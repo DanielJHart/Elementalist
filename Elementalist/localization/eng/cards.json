@@ -27,6 +27,7 @@
   "ELEMENTALIST-GUST.description": "Apply {WeakPower:diff()} [gold]Weak[/gold] to an enemy.",
 
   "ELEMENTALIST-TIDAL_WAVE.title": "Tidal Wave",
+  "ELEMENTALIST-TIDAL_WAVE.selectionScreenPrompt": "Choose a card to play.",
   "ELEMENTALIST-TIDAL_WAVE.description": "Choose a card, play that card X times.",
 
   "ELEMENTALIST-FLAME_WAVE.title": "Flame Wave",
