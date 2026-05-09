@@ -1,6 +1,4 @@
-﻿using BaseLib.Utils;
-using Elementalist.ElementalistCode.Cards;
-using Elementalist.ElementalistCode.Character;
+﻿using Elementalist.ElementalistCode.Cards;
 using Elementalist.ElementalistCode.Powers;
 using Elementalist.ElementalistCode.Utils;
 using MegaCrit.Sts2.Core.Commands;
@@ -13,10 +11,9 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Elementalist.ElementalistCode.Cards;
 
-[Pool(typeof(ElementalistCardPool))]
-public class FireBolt() : ElementalistCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
+public class FireBall() : ElementalistCard(3, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(4M, ValueProp.Move), new BurnVar(5, ValueProp.Move), new IntVar("Charred", 1)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(15M, ValueProp.Move), new BurnVar(10, ValueProp.Move), new IntVar("Charred", 1)];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<BurnPower>(), HoverTipFactory.FromPower<CharredPower>()];
     
@@ -31,7 +28,7 @@ public class FireBolt() : ElementalistCard(1, CardType.Attack, CardRarity.Common
         AttackCommand attackCommand = await DamageCmd.Attack(this.DynamicVars.Damage.BaseValue)
             .FromCard(this)
             .Targeting(play.Target)
-            .WithHitFx("vfx/vfx_fire_burning")
+            .WithHitFx("vfx/vfx_fire_burst")
             .Execute(choiceContext);
         
         await ElementalistUtility.ApplyBurnPower(play.Target, this.DynamicVars["Burn"].BaseValue, this.Owner.Creature, this);
@@ -39,6 +36,6 @@ public class FireBolt() : ElementalistCard(1, CardType.Attack, CardRarity.Common
 
     protected override void OnUpgrade()
     {
-        this.DynamicVars["Burn"].UpgradeValueBy(3m);
+        this.DynamicVars["Burn"].UpgradeValueBy(5m);
     }
 }

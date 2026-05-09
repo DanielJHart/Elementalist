@@ -35,12 +35,12 @@ public class Elementalist : PlaceholderCharacterModel
         ModelDb.Card<StrikeElementalist>(),
         ModelDb.Card<StrikeElementalist>(),
         ModelDb.Card<StrikeElementalist>(),
-        ModelDb.Card<StrikeElementalist>(),
         ModelDb.Card<DefendElementalist>(),
         ModelDb.Card<DefendElementalist>(),
         ModelDb.Card<DefendElementalist>(),
         ModelDb.Card<DefendElementalist>(),
-        ModelDb.Card<DefendElementalist>()
+        ModelDb.Card<FireBolt>(),
+        ModelDb.Card<Gust>(),
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>

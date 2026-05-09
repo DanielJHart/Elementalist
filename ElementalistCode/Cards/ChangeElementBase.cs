@@ -36,6 +36,6 @@ public abstract class ChangeElementBase() : ElementalistCard(1, CardType.Skill, 
 
     protected override void OnUpgrade()
     {
-        this.EnergyCost.UpgradeBy(1);
+        this.EnergyCost.UpgradeBy(-1);
     }
 }

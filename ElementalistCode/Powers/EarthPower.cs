@@ -10,5 +10,5 @@ public class EarthPower() : TemporaryDexterityPower, ICustomModel
 {
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.None;
-    public override AbstractModel OriginModel => (AbstractModel) ModelDb.Power<EarthPower>();
+    public override AbstractModel OriginModel => (AbstractModel) ModelDb.Relic<ElementalAttunement>();
 }

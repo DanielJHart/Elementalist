@@ -10,5 +10,5 @@ public class FirePower : TemporaryStrengthPower, ICustomModel
 {
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.None;
-    public override AbstractModel OriginModel => (AbstractModel) ModelDb.Power<FirePower>();
+    public override AbstractModel OriginModel => (AbstractModel) ModelDb.Relic<ElementalAttunement>();
 }

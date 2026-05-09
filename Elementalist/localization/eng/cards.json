@@ -6,17 +6,23 @@
   "ELEMENTALIST-DEFEND_ELEMENTALIST.description": "Gain {Block:diff()} [gold]Block[/gold].",
 
   "ELEMENTALIST-GO_TO_GROUND.title": "Go To Ground",
-  "ELEMENTALIST-GO_TO_GROUND.description": "Enter Earth stance.",
+  "ELEMENTALIST-GO_TO_GROUND.description": "Enter [gold]Earth[/gold] stance.",
 
   "ELEMENTALIST-SET_ABLAZE.title": "Set Ablaze",
-  "ELEMENTALIST-SET_ABLAZE.description": "Enter Fire stance.",
+  "ELEMENTALIST-SET_ABLAZE.description": "Enter [gold]Fire[/gold] stance.",
 
   "ELEMENTALIST-LIFT_OFF.title": "Lift Off",
-  "ELEMENTALIST-LIFT_OFF.description": "Enter Air stance.",
+  "ELEMENTALIST-LIFT_OFF.description": "Enter [gold]Air[/gold] stance.",
 
   "ELEMENTALIST-MAKE_WAVES.title": "Make Waves",
-  "ELEMENTALIST-MAKE_WAVES.description": "Enter Water stance.",
+  "ELEMENTALIST-MAKE_WAVES.description": "Enter [gold]Water[/gold] stance.",
 
   "ELEMENTALIST-FIRE_BOLT.title": "Fire Bolt",
-  "ELEMENTALIST-FIRE_BOLT.description": "Deal {Damage:diff()} damage. \nApply {Burn:diff()} [gold]Burn[/gold]."
+  "ELEMENTALIST-FIRE_BOLT.description": "Deal {Damage:diff()} damage. \nApply {Burn:diff()} [gold]Burn[/gold].",
+
+  "ELEMENTALIST-FIRE_BALL.title": "Fire Ball",
+  "ELEMENTALIST-FIRE_BALL.description": "Deal {Damage:diff()} damage. \nApply {Burn:diff()} [gold]Burn[/gold].",
+
+  "ELEMENTALIST-GUST.title": "Gust",
+  "ELEMENTALIST-GUST.description": "Apply {Power:diff()} to an enemy."
 }
