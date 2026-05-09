@@ -24,5 +24,11 @@
   "ELEMENTALIST-FIRE_BALL.description": "Deal {Damage:diff()} damage. \nApply {Burn:diff()} [gold]Burn[/gold].",
 
   "ELEMENTALIST-GUST.title": "Gust",
-  "ELEMENTALIST-GUST.description": "Apply {Power:diff()} to an enemy."
+  "ELEMENTALIST-GUST.description": "Apply {WeakPower:diff()} [gold]Weak[/gold] to an enemy.",
+
+  "ELEMENTALIST-TIDAL_WAVE.title": "Tidal Wave",
+  "ELEMENTALIST-TIDAL_WAVE.description": "Choose a card, play that card X times.",
+
+  "ELEMENTALIST-FLAME_WAVE.title": "Flame Wave",
+  "ELEMENTALIST-FLAME_WAVE.description": "Deal {Damage:diff()} to ALL enemies. Apply {Burn:diff()} [gold]Burn[/gold] to ALL enemies."
 }

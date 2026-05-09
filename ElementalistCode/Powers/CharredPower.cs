@@ -15,7 +15,7 @@ public class CharredPower() : ElementalistPower, IElementalistModel
 
     public decimal ModifyBurnDamage(Creature target, decimal amount)
     {
-        if (this.Amount > 0)
+        if (target == this.Owner && this.Amount > 0)
         {
             return amount + this.Amount;
         }

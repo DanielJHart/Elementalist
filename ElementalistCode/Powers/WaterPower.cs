@@ -14,13 +14,13 @@ public class WaterPower : ElementalistPower
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.None;
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new IntVar("Energy", 1)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new EnergyVar(1)];
 
     public override Task AfterEnergyResetLate(Player player)
     {
         if (this.Owner.Player != null)
         {
-            PlayerCmd.GainEnergy(this.DynamicVars["Energy"].BaseValue, this.Owner.Player);
+            PlayerCmd.GainEnergy(this.DynamicVars.Energy.BaseValue, this.Owner.Player);
         }
         
         return Task.CompletedTask;

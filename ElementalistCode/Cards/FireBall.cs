@@ -13,15 +13,14 @@ namespace Elementalist.ElementalistCode.Cards;
 
 public class FireBall() : ElementalistCard(3, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(15M, ValueProp.Move), new BurnVar(10, ValueProp.Move), new IntVar("Charred", 1)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(15M, ValueProp.Move), new BurnVar(10, ValueProp.Move)];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<BurnPower>(), HoverTipFactory.FromPower<CharredPower>()];
-    
+
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        
         if (play.Target == null)
             return;
         

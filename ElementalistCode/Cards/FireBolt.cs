@@ -16,7 +16,7 @@ namespace Elementalist.ElementalistCode.Cards;
 [Pool(typeof(ElementalistCardPool))]
 public class FireBolt() : ElementalistCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(4M, ValueProp.Move), new BurnVar(5, ValueProp.Move), new IntVar("Charred", 1)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(4M, ValueProp.Move), new BurnVar(5, ValueProp.Move)];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<BurnPower>(), HoverTipFactory.FromPower<CharredPower>()];
     
