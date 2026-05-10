@@ -10,9 +10,10 @@ using MegaCrit.Sts2.Core.Models;
 namespace Elementalist.ElementalistCode.Cards;
 
 
-public class TidalWave() : ElementalistCard(0, CardType.Skill, CardRarity.Rare, TargetType.Self)
+public class Tsunami() : ElementalistCard(0, CardType.Skill, CardRarity.Rare, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
 
     protected override bool HasEnergyCostX => true;
 

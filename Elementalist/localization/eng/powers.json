@@ -21,5 +21,9 @@
 
   "ELEMENTALIST-CHARRED_POWER.title": "Charred",
   "ELEMENTALIST-CHARRED_POWER.description": "Increases the amount of [gold]Burn[/gold] applied to target.",
-  "ELEMENTALIST-CHARRED_POWER.smartDescription": "Increases [gold]Burn[/gold] applied to target by {Amount}."
+  "ELEMENTALIST-CHARRED_POWER.smartDescription": "Increases [gold]Burn[/gold] applied to target by {Amount}.",
+
+  "ELEMENTALIST-DIG_DEEP_POWER.description": "Gain Temporary [gold]Dexterity[/gold] this turn.",
+  "ELEMENTALIST-DIG_DEEP_POWER.smartDescription": "Gain {Amount} [gold]Dexterity[/gold] this turn.",
+  "ELEMENTALIST-DIG_DEEP_POWER.title": "Dig Deep"
 }
