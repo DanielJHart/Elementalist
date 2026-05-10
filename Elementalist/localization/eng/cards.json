@@ -33,9 +33,12 @@
   "ELEMENTALIST-FLAME_WAVE.title": "Flame Wave",
   "ELEMENTALIST-FLAME_WAVE.description": "Deal {Damage:diff()} to ALL enemies. Apply {Burn:diff()} [gold]Burn[/gold] to ALL enemies.",
 
-  "ELEMENTALIST-FAN_THE_FLAME.description": "Apply [gold]Burn[/gold] on this enemy to ALL other enemies.",
   "ELEMENTALIST-FAN_THE_FLAME.title": "Fan The Flame",
+  "ELEMENTALIST-FAN_THE_FLAME.description": "Apply [gold]Burn[/gold] on this enemy to ALL other enemies.",
 
-  "ELEMENTALIST-DIG_DEEP.description": "Gain {DexterityPower} temporary [gold]Dexterity[/gold]",
-  "ELEMENTALIST-DIG_DEEP.title": "Dig Deep"
+  "ELEMENTALIST-DIG_DEEP.title": "Dig Deep",
+  "ELEMENTALIST-DIG_DEEP.description": "Gain {DexterityPower} [gold]Dexterity[/gold] this turn.",
+
+  "ELEMENTALIST-STAND_YOUR_GROUND.title": "Stand Your Ground",
+  "ELEMENTALIST-STAND_YOUR_GROUND.description": "If target is [gold]Weak[/gold], gain 1 [gold]Intangible[/gold]."
 }
