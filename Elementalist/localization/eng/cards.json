@@ -31,5 +31,8 @@
   "ELEMENTALIST-TIDAL_WAVE.description": "Choose a card, play that card {IfUpgraded:show:X+1|X} times.",
 
   "ELEMENTALIST-FLAME_WAVE.title": "Flame Wave",
-  "ELEMENTALIST-FLAME_WAVE.description": "Deal {Damage:diff()} to ALL enemies. Apply {Burn:diff()} [gold]Burn[/gold] to ALL enemies."
+  "ELEMENTALIST-FLAME_WAVE.description": "Deal {Damage:diff()} to ALL enemies. Apply {Burn:diff()} [gold]Burn[/gold] to ALL enemies.",
+
+  "ELEMENTALIST-FAN_THE_FLAME.description": "Apply [gold]Burn[/gold] on this enemy to ALL other enemies.",
+  "ELEMENTALIST-FAN_THE_FLAME.title": "Fan The Flame"
 }
