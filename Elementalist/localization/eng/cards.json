@@ -40,5 +40,8 @@
   "ELEMENTALIST-DIG_DEEP.description": "Gain {DexterityPower} [gold]Dexterity[/gold] this turn.",
 
   "ELEMENTALIST-STAND_YOUR_GROUND.title": "Stand Your Ground",
-  "ELEMENTALIST-STAND_YOUR_GROUND.description": "If target is [gold]Weak[/gold], gain 1 [gold]Intangible[/gold]."
+  "ELEMENTALIST-STAND_YOUR_GROUND.description": "If target is [gold]Weak[/gold], gain {IntangiblePower:diff()} [gold]Intangible[/gold].",
+
+  "ELEMENTALIST-LIGHT_EM_UP.title": "Light Em Up",
+  "ELEMENTALIST-LIGHT_EM_UP.description": "{IfUpgraded:show:Triple|Double} the enemy's [gold]Burn[/gold]."
 }
