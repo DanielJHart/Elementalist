@@ -23,6 +23,7 @@ public class TidalWave() : ElementalistCard(0, CardType.Skill, CardRarity.Rare, 
     {
         if (_activated)
         {
+            int amountToAdd = (int)_energyUsed + (IsUpgraded ? 1: 0);
             return card.Owner != this.Owner ? playCount : (int)_energyUsed;
         }
 
@@ -49,10 +50,5 @@ public class TidalWave() : ElementalistCard(0, CardType.Skill, CardRarity.Rare, 
                 _activated = false;
             }
         }
-    }
-
-    protected override void OnUpgrade()
-    {
-
     }
 }

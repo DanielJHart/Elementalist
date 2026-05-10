@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dun3hrx4ryh2s"]
+
+[ext_resource type="Texture2D" uid="uid://qrhkh14q0kqw" path="res://elementalist/images/charui/char_select_bg_elementalist.png" id="1_3mi3c"]
+
+[node name="CharSelectBgElementalist" type="Control" unique_id=1658701594]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="CharSelectBgElementalist" type="Sprite2D" parent="." unique_id=2143370543]
+position = Vector2(1156, 600)
+texture = ExtResource("1_3mi3c")

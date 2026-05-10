@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://drfb7xr8515v5"]
+
+[ext_resource type="Texture2D" uid="uid://tvmjsmcvrqvt" path="res://elementalist/images/charui/elementalist.png" id="1_6vchc"]
+
+[node name="Elementalist" type="Node2D" unique_id=162543609]
+
+[node name="Bounds" type="Control" parent="." unique_id=2135353413]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -121.0
+offset_top = -270.0
+offset_right = 154.0
+mouse_filter = 2
+
+[node name="CenterPos" type="Marker2D" parent="." unique_id=1590138958]
+unique_name_in_owner = true
+position = Vector2(3, -191)
+
+[node name="IntentPos" type="Marker2D" parent="." unique_id=162987137]
+unique_name_in_owner = true
+position = Vector2(0, -326)
+
+[node name="Elementalist" type="Sprite2D" parent="." unique_id=1145618745]
+position = Vector2(40, -160)
+scale = Vector2(0.161, 0.161)
+texture = ExtResource("1_6vchc")
