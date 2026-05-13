@@ -16,7 +16,8 @@ public enum ElementType
     Earth,
     Fire,
     Water,
-    Air
+    Air,
+    None
 }
 
 public class Elementalist : PlaceholderCharacterModel
@@ -89,7 +90,7 @@ public class Elementalist : PlaceholderCharacterModel
 
     public void SetElementCycle(int cycle, ElementType element)
     {
-        if (cycle <= elementCycles.Count)
+        if (cycle < elementCycles.Count)
         {
             elementCycles[cycle] = element;
             
@@ -107,39 +108,37 @@ public class Elementalist : PlaceholderCharacterModel
 
     public ElementType GetCurrentElement(int cycle)
     {
-        if (cycle <= elementCycles.Count)
+        if (cycle < elementCycles.Count)
         {
             return elementCycles[cycle];
         }
         
-        return ElementType.Earth;
+        return ElementType.None;
     }
 
     private ElementType GetNextElement(ElementType currentElement, bool isForwards)
     {
         if (isForwards)
         {
-            int current = (int)currentElement;
-            ++current;
-            if (current > (int)ElementType.Air)
+            if (currentElement == ElementType.Air)
             {
-                // Cycle back around.
-                current = 0;
+                return ElementType.Earth;
             }
-            
-            return (ElementType)current;
+            else
+            {
+                return ++currentElement;
+            }
         }
         else
         {
-            int current = (int)currentElement;
-            --current;
-            if (current < 0)
+            if (currentElement == ElementType.Earth)
             {
-                // Cycle back around.
-                current = (int)ElementType.Air;
+                return ElementType.Air;
             }
-            
-            return (ElementType)current;
+            else
+            {
+                return --currentElement;
+            }
         }
     }
 }

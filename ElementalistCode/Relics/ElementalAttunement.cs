@@ -31,6 +31,8 @@ public class ElementalAttunement : ElementalistRelic
         if (elementalist != null)
         {
             elementalist.AddElementCycle(ElementType.Earth);
+            elementalist.SetElementCycle(0, ElementType.Earth);
+            elementalist.SetElementCycle(1, ElementType.Air);
         }
         
         return Task.CompletedTask;

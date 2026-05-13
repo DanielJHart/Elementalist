@@ -27,7 +27,7 @@ public static class ElementalistUtility
     {
         if (player.Character is Character.Elementalist elementalist)
         {
-            return elementalist.GetCurrentElement(0) == element;
+            return elementalist.GetCurrentElement(0) == element || elementalist.GetCurrentElement(1) == element;
         }
 
         return false;
