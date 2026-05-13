@@ -49,5 +49,8 @@
   "ELEMENTALIST-AFTERSHOCK.description": "Deal {Damage:diff()} damage. \nIf in [gold]Earth[/gold] stance, hits twice.",
 
   "ELEMENTALIST-FLOW_STATE.title": "Flow State",
-  "ELEMENTALIST-FLOW_STATE.description": "This turn, your next [gold]Skill[/gold] is played an extra time. If in [gold]Water[/gold] stance, works for any type."
+  "ELEMENTALIST-FLOW_STATE.description": "This turn, your next [gold]Skill[/gold] is played an extra time. If in [gold]Water[/gold] stance, works for any type.",
+  
+  "ELEMENTALIST-BOLSTER.title": "Bolster",
+  "ELEMENTALIST-BOLSTER.description": "Gain {Block:diff()} [gold]Block[/gold] for each [gold]Weak[/gold] on enemy."
 }
