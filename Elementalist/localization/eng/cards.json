@@ -52,5 +52,8 @@
   "ELEMENTALIST-FLOW_STATE.description": "This turn, your next [gold]Skill[/gold] is played an extra time. If in [gold]Water[/gold] stance, works for any type.",
   
   "ELEMENTALIST-BOLSTER.title": "Bolster",
-  "ELEMENTALIST-BOLSTER.description": "Gain {Block:diff()} [gold]Block[/gold] for each [gold]Weak[/gold] on enemy."
+  "ELEMENTALIST-BOLSTER.description": "Gain {Block:diff()} [gold]Block[/gold] for each [gold]Weak[/gold] on enemy.",
+
+  "ELEMENTALIST-REPLENISH.title": "Replenish",
+  "ELEMENTALIST-REPLENISH.description": "Give {Energy:energyIcons()} to another player. If in [gold]Water[/gold] stance, energy is given to ALL players."
 }
