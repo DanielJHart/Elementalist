@@ -59,5 +59,8 @@
 
   "ELEMENTALIST-SECOND_WIND.title": "Second Wind",
   "ELEMENTALIST-SECOND_WIND.selectionScreenPrompt": "Choose a card to return to your hand.",
-  "ELEMENTALIST-SECOND_WIND.description": "Choose a card in your [gold]Exhaust[/gold] pile, put it in your hand. {IfUpgraded:show:, \nIt is free the play this turn.}."
+  "ELEMENTALIST-SECOND_WIND.description": "Choose a card in your [gold]Exhaust[/gold] pile, put it in your hand. {IfUpgraded:show:, \nIt is free the play this turn.}.",
+
+  "ELEMENTALIST-CLEAN_SLATE.title": "Clean Slate",
+  "ELEMENTALIST-CLEAN_SLATE.description": "Shuffle your hand and discard into your draw pile. Draw a new hand."
 }
