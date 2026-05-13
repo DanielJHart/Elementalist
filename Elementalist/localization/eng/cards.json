@@ -46,5 +46,8 @@
   "ELEMENTALIST-LIGHT_EM_UP.description": "{IfUpgraded:show:Triple|Double} the enemy's [gold]Burn[/gold].",
 
   "ELEMENTALIST-AFTERSHOCK.title": "Aftershock",
-  "ELEMENTALIST-AFTERSHOCK.description": "Deal {Damage:diff()} damage. \nIf in [gold]Earth[/gold] stance, hits twice."
+  "ELEMENTALIST-AFTERSHOCK.description": "Deal {Damage:diff()} damage. \nIf in [gold]Earth[/gold] stance, hits twice.",
+
+  "ELEMENTALIST-FLOW_STATE.title": "Flow State",
+  "ELEMENTALIST-FLOW_STATE.description": "This turn, your next [gold]Skill[/gold] is played an extra time. If in [gold]Water[/gold] stance, works for any type."
 }

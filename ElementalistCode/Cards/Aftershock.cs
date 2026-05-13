@@ -1,5 +1,6 @@
 ﻿using Elementalist.ElementalistCode.Cards;
 using Elementalist.ElementalistCode.Character;
+using Elementalist.ElementalistCode.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Commands.Builders;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -13,20 +14,7 @@ public class Aftershock() : ElementalistCard(1, CardType.Attack, CardRarity.Comm
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(6m, ValueProp.Move)];
 
-    protected override bool ShouldGlowGoldInternal => this.Aligned;
-    
-    private bool Aligned 
-    {
-        get
-        {
-            if (this.Owner.Character is Character.Elementalist elementalist)
-            {
-                return elementalist.GetCurrentElement(0) == ElementType.Earth;
-            }
-
-            return false;
-        }
-    }
+    protected override bool ShouldGlowGoldInternal => ElementalistUtility.IsAligned(this.Owner, ElementType.Earth);
     
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
@@ -39,7 +27,7 @@ public class Aftershock() : ElementalistCard(1, CardType.Attack, CardRarity.Comm
         int hitCount = 1;
         
         // Check alignment
-        if (Aligned)
+        if (ElementalistUtility.IsAligned(this.Owner, ElementType.Earth))
         {
             hitCount = 2;
         }

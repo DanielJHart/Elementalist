@@ -25,5 +25,9 @@
 
   "ELEMENTALIST-DIG_DEEP_POWER.description": "Gain Temporary [gold]Dexterity[/gold] this turn.",
   "ELEMENTALIST-DIG_DEEP_POWER.smartDescription": "Gain {Amount} [gold]Dexterity[/gold] this turn.",
-  "ELEMENTALIST-DIG_DEEP_POWER.title": "Dig Deep"
+  "ELEMENTALIST-DIG_DEEP_POWER.title": "Dig Deep",
+
+  "ELEMENTALIST-FLOW_STATE_POWER.title": "Flow State",
+  "ELEMENTALIST-FLOW_STATE_POWER.description": "",
+  "ELEMENTALIST-FLOW_STATE_POWER.smartDescription": ""
 }
