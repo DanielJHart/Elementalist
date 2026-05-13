@@ -55,5 +55,9 @@
   "ELEMENTALIST-BOLSTER.description": "Gain {Block:diff()} [gold]Block[/gold] for each [gold]Weak[/gold] on enemy.",
 
   "ELEMENTALIST-REPLENISH.title": "Replenish",
-  "ELEMENTALIST-REPLENISH.description": "Give {Energy:energyIcons()} to another player. If in [gold]Water[/gold] stance, energy is given to ALL players."
+  "ELEMENTALIST-REPLENISH.description": "Give {Energy:energyIcons()} to another player. If in [gold]Water[/gold] stance, energy is given to ALL players.",
+
+  "ELEMENTALIST-SECOND_WIND.title": "Second Wind",
+  "ELEMENTALIST-SECOND_WIND.selectionScreenPrompt": "Choose a card to return to your hand.",
+  "ELEMENTALIST-SECOND_WIND.description": "Choose a card in your [gold]Exhaust[/gold] pile, put it in your hand. {IfUpgraded:show:, \nIt is free the play this turn.}."
 }
