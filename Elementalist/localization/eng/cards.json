@@ -62,5 +62,8 @@
   "ELEMENTALIST-SECOND_WIND.description": "Choose a card in your [gold]Exhaust[/gold] pile, put it in your hand. {IfUpgraded:show:, \nIt is free the play this turn.}.",
 
   "ELEMENTALIST-CLEAN_SLATE.title": "Clean Slate",
-  "ELEMENTALIST-CLEAN_SLATE.description": "Shuffle your hand and discard into your draw pile. Draw a new hand."
+  "ELEMENTALIST-CLEAN_SLATE.description": "Shuffle your hand and discard into your draw pile. Draw a new hand.",
+
+  "ELEMENTALIST-THE_BOULDER.title": "The Boulder",
+  "ELEMENTALIST-THE_BOULDER.description": "Deals {Damage:diff()} damage."
 }
