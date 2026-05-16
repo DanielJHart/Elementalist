@@ -65,5 +65,8 @@
   "ELEMENTALIST-CLEAN_SLATE.description": "Shuffle your hand and discard into your draw pile. Draw a new hand.",
 
   "ELEMENTALIST-THE_BOULDER.title": "The Boulder",
-  "ELEMENTALIST-THE_BOULDER.description": "Deals {Damage:diff()} damage."
+  "ELEMENTALIST-THE_BOULDER.description": "Deals {Damage:diff()} damage.",
+
+  "ELEMENTALIST-CLEANSE.title": "Cleanse",
+  "ELEMENTALIST-CLEANSE.description": "Remove all [gold]Frail[/gold]. {IfUpgraded:show:\nAlso remove all [gold]Weak[/gold].}"
 }
