@@ -1,10 +1,12 @@
 ﻿using Elementalist.ElementalistCode.Character;
 using Elementalist.ElementalistCode.Powers;
+using Elementalist.ElementalistCode.Relics;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Events;
 
 namespace Elementalist.ElementalistCode.Utils;
 
@@ -27,7 +29,15 @@ public static class ElementalistUtility
     {
         if (player.Character is Character.Elementalist elementalist)
         {
-            return elementalist.GetCurrentElement(0) == element || elementalist.GetCurrentElement(1) == element;
+            bool currentlyAligned = elementalist.GetCurrentElement(CycleType.Primary) == element;
+            
+            // Check for upgraded relic.
+            if (player.GetRelic<ElementalMastery>() != null)
+            {
+                currentlyAligned |= elementalist.GetCurrentElement(CycleType.Secondary) == element;
+            }
+            
+            return currentlyAligned;
         }
 
         return false;

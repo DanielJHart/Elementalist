@@ -1,5 +1,9 @@
 {
   "ELEMENTALIST-ELEMENTAL_ATTUNEMENT.title": "Elemental Attunement",
   "ELEMENTALIST-ELEMENTAL_ATTUNEMENT.description": "At the start of turn, cycle elemental stance.",
-  "ELEMENTALIST-ELEMENTAL_ATTUNEMENT.flavor": ""
+  "ELEMENTALIST-ELEMENTAL_ATTUNEMENT.flavor": "",
+
+  "ELEMENTALIST-ELEMENTAL_MASTERY.title": "Elemental Mastery",
+  "ELEMENTALIST-ELEMENTAL_MASTERY.description": "At the start of turn, cycle 2 elemental stances.",
+  "ELEMENTALIST-ELEMENTAL_MASTERY.flavor": ""
 }

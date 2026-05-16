@@ -30,24 +30,10 @@ public class ElementalAttunement : ElementalistRelic
         
         if (elementalist != null)
         {
-            elementalist.AddElementCycle(ElementType.Earth);
-            elementalist.SetElementCycle(0, ElementType.Earth);
-            elementalist.SetElementCycle(1, ElementType.Air);
+            elementalist.SetElementCycle(CycleType.Primary, ElementType.Earth);
         }
         
         return Task.CompletedTask;
-    }
-
-    public override Task AfterCombatEnd(CombatRoom room)
-    {
-        Character.Elementalist?  elementalist = GetElementalist();
-        
-        if (elementalist != null)
-        {
-            elementalist.RemoveElementCycle(0);
-        }
-        
-        return base.AfterCombatEnd(room);
     }
 
     public override Task BeforeSideTurnStart(PlayerChoiceContext choiceContext, CombatSide side, CombatState combatState)
@@ -58,10 +44,13 @@ public class ElementalAttunement : ElementalistRelic
 
             if (elementalist != null)
             {
-                elementalist.CycleElements(_isCyclingForwards);
+                if (combatState.RoundNumber > 1)
+                {
+                    elementalist.CycleElements(_isCyclingForwards);
+                }
                 
                 // Now we've cycled, apply appropriate power.
-                ApplyPowerForElement(elementalist.GetCurrentElement(0));
+                ApplyPowerForElement(elementalist.GetCurrentElement(CycleType.Primary));
             }
         }
         
@@ -112,9 +101,8 @@ public class ElementalAttunement : ElementalistRelic
 
         if (elementalist != null)
         {
-            //RemovePowerForElement(elementalist.GetCurrentElement(0));
             ApplyPowerForElement(element);
-            elementalist.SetElementCycle(0, element);
+            elementalist.SetElementCycle(CycleType.Primary, element);
         }
     }
 

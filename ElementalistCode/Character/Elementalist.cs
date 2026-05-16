@@ -20,6 +20,12 @@ public enum ElementType
     None
 }
 
+public enum CycleType
+{
+    Primary,
+    Secondary
+}
+
 public class Elementalist : PlaceholderCharacterModel
 {
     public const string CharacterId = "Elementalist";
@@ -76,23 +82,32 @@ public class Elementalist : PlaceholderCharacterModel
 
     // ELEMENTALIST LOGIC STARTS
 
-    private List<ElementType> elementCycles = new List<ElementType>();
+    //private List<ElementType> elementCycles = new List<ElementType>();
+    
+    private Dictionary<CycleType, ElementType> _elementCycles = new  Dictionary<CycleType, ElementType>();
 
-    public void AddElementCycle(ElementType element)
+    public Elementalist()
     {
-        elementCycles.Add(element);
+        AddElementCycle(CycleType.Primary, ElementType.Earth);
+        AddElementCycle(CycleType.Secondary, ElementType.Water);
     }
 
-    public void RemoveElementCycle(int cycle)
+    public void AddElementCycle(CycleType cycle, ElementType element)
     {
-        elementCycles.RemoveAt(cycle);
+        _elementCycles.Add(cycle, element);
     }
 
-    public void SetElementCycle(int cycle, ElementType element)
+    public void RemoveElementCycle(CycleType cycle)
     {
-        if (cycle < elementCycles.Count)
+        _elementCycles.Remove(cycle);
+    }
+
+    public void SetElementCycle(CycleType cycle, ElementType element)
+    {
+        if (_elementCycles.ContainsKey(cycle))
         {
-            elementCycles[cycle] = element;
+            _elementCycles[cycle] = element;
+            //OnElementChanged.Invoke();
             
             // TODO: update UI.
         }
@@ -100,23 +115,18 @@ public class Elementalist : PlaceholderCharacterModel
     
     public void CycleElements(bool isForwards)
     {
-        for (int i = 0; i < elementCycles.Count; i++)
+        foreach (var elementCycle in _elementCycles)
         {
-            elementCycles[i] = GetNextElement(elementCycles[i], isForwards);
+            SetElementCycle(elementCycle.Key, GetNextElement(elementCycle.Value, isForwards));
         }
     }
 
-    public ElementType GetCurrentElement(int cycle)
+    public ElementType GetCurrentElement(CycleType cycle)
     {
-        if (cycle < elementCycles.Count)
-        {
-            return elementCycles[cycle];
-        }
-        
-        return ElementType.None;
+        return _elementCycles.GetValueOrDefault(cycle, ElementType.None);
     }
 
-    private ElementType GetNextElement(ElementType currentElement, bool isForwards)
+    private static ElementType GetNextElement(ElementType currentElement, bool isForwards)
     {
         if (isForwards)
         {
@@ -141,4 +151,8 @@ public class Elementalist : PlaceholderCharacterModel
             }
         }
     }
+
+    public delegate void Notify();
+    
+    public event Notify OnElementChanged;
 }

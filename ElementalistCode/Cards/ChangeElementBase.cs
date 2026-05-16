@@ -18,7 +18,7 @@ public abstract class ChangeElementBase() : ElementalistCard(1, CardType.Skill, 
         {
             if (this.Owner.Character is Character.Elementalist elementalist)
             {
-                return elementalist.GetCurrentElement(0) !=  ElementToChangeTo;
+                return elementalist.GetCurrentElement(CycleType.Primary) !=  ElementToChangeTo;
             }
             
             return true;
