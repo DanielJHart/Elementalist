@@ -68,5 +68,8 @@
   "ELEMENTALIST-THE_BOULDER.description": "Deals {Damage:diff()} damage.",
 
   "ELEMENTALIST-CLEANSE.title": "Cleanse",
-  "ELEMENTALIST-CLEANSE.description": "Remove all [gold]Frail[/gold]. {IfUpgraded:show:\nAlso remove all [gold]Weak[/gold].}"
+  "ELEMENTALIST-CLEANSE.description": "Remove all [gold]Frail[/gold]. {IfUpgraded:show:\nAlso remove all [gold]Weak[/gold].}",
+
+  "ELEMENTALIST-DRAUGHT.title": "Draught",
+  "ELEMENTALIST-DRAUGHT.description": "Draw {DrawCount:diff()} cards. If in [gold]Air[/gold] stance, draw {AlignedDrawCount:diff()}."
 }
