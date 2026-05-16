@@ -71,5 +71,20 @@
   "ELEMENTALIST-CLEANSE.description": "Remove all [gold]Frail[/gold]. {IfUpgraded:show:\nAlso remove all [gold]Weak[/gold].}",
 
   "ELEMENTALIST-DRAUGHT.title": "Draught",
-  "ELEMENTALIST-DRAUGHT.description": "Draw {DrawCount:diff()} cards. If in [gold]Air[/gold] stance, draw {AlignedDrawCount:diff()}."
+  "ELEMENTALIST-DRAUGHT.description": "Draw {DrawCount:diff()} cards. If in [gold]Air[/gold] stance, draw {AlignedDrawCount:diff()}.",
+
+  "ELEMENTALIST-OFF_BALANCE.title": "Off Balance",
+  "ELEMENTALIST-OFF_BALANCE.description": "Double [gold]Weak[/gold] on enemy.",
+
+  "ELEMENTALIST-BACKDRAFT.title": "Backdraft",
+  "ELEMENTALIST-BACKDRAFT.description": "Deal {Damage:diff()} damage. If target is [gold]Weak[/gold], hits twice.",
+
+  "ELEMENTALIST-BREEZE.title": "Breeze",
+  "ELEMENTALIST-BREEZE.description": "Draw {Cards:diff()} cards. \nDiscard 1 card.",
+
+  "ELEMENTALIST-ONYX_COAT.title": "Onyx Coat",
+  "ELEMENTALIST-ONYX_COAT.description": "Gain {DexterityPower:diff()} [gold]Dexterity[/gold].",
+
+  "ELEMENTALIST-WREATHED_IN_FLAME.title": "Wreathed In Flame",
+  "ELEMENTALIST-WREATHED_IN_FLAME.description": "Gain {StrengthPower:diff()} [gold]Strength[/gold]."
 }
