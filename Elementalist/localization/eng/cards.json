@@ -86,5 +86,8 @@
   "ELEMENTALIST-ONYX_COAT.description": "Gain {DexterityPower:diff()} [gold]Dexterity[/gold].",
 
   "ELEMENTALIST-WREATHED_IN_FLAME.title": "Wreathed In Flame",
-  "ELEMENTALIST-WREATHED_IN_FLAME.description": "Gain {StrengthPower:diff()} [gold]Strength[/gold]."
+  "ELEMENTALIST-WREATHED_IN_FLAME.description": "Gain {StrengthPower:diff()} [gold]Strength[/gold].",
+
+  "ELEMENTALIST-PULVERIZE.title": "Pulverize",
+  "ELEMENTALIST-PULVERIZE.description": "Deal {Damage:diff()} damage. \nIgnores [gold]Block[/gold]."
 }
