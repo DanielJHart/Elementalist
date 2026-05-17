@@ -89,5 +89,8 @@
   "ELEMENTALIST-WREATHED_IN_FLAME.description": "Gain {StrengthPower:diff()} [gold]Strength[/gold].",
 
   "ELEMENTALIST-PULVERIZE.title": "Pulverize",
-  "ELEMENTALIST-PULVERIZE.description": "Deal {Damage:diff()} damage. \nIgnores [gold]Block[/gold]."
+  "ELEMENTALIST-PULVERIZE.description": "Deal {Damage:diff()} damage. \nIgnores [gold]Block[/gold].",
+
+  "ELEMENTALIST-FOUNTAIN_OF_YOUTH.title": "Fountain Of Youth",
+  "ELEMENTALIST-FOUNTAIN_OF_YOUTH.description": "At the start of your turn, gain {Energy:energyIcons()}."
 }

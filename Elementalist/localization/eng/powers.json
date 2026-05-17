@@ -28,6 +28,10 @@
   "ELEMENTALIST-DIG_DEEP_POWER.title": "Dig Deep",
 
   "ELEMENTALIST-FLOW_STATE_POWER.title": "Flow State",
-  "ELEMENTALIST-FLOW_STATE_POWER.description": "",
-  "ELEMENTALIST-FLOW_STATE_POWER.smartDescription": ""
+  "ELEMENTALIST-FLOW_STATE_POWER.description": "The next card played is played twice.",
+  "ELEMENTALIST-FLOW_STATE_POWER.smartDescription": "The next card played is played twice.",
+
+  "ELEMENTALIST-FOUNTAIN_OF_YOUTH_POWER.title": "Fountain Of Youth",
+  "ELEMENTALIST-FOUNTAIN_OF_YOUTH_POWER.description": "Increased extra energy per turn.",
+  "ELEMENTALIST-FOUNTAIN_OF_YOUTH_POWER.smartDescription": "At the start of your turn, gain {Amount:energyIcons()}."
 }
