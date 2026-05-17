@@ -107,7 +107,6 @@ public class Elementalist : PlaceholderCharacterModel
         if (_elementCycles.ContainsKey(cycle))
         {
             _elementCycles[cycle] = element;
-            //OnElementChanged.Invoke();
             
             // TODO: update UI.
         }
@@ -151,8 +150,4 @@ public class Elementalist : PlaceholderCharacterModel
             }
         }
     }
-
-    public delegate void Notify();
-    
-    public event Notify OnElementChanged;
 }

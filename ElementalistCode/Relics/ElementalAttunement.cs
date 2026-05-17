@@ -17,7 +17,7 @@ public class ElementalAttunement : ElementalistRelic
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new StringVar("NextElement", "Earth")];
 
-    private bool _isCyclingForwards = true;
+    protected bool _isCyclingForwards = true;
 
     private Character.Elementalist? GetElementalist()
     {
@@ -57,7 +57,7 @@ public class ElementalAttunement : ElementalistRelic
         return Task.CompletedTask;
     }
 
-    private void ApplyPowerForElement(ElementType element)
+    protected void ApplyPowerForElement(ElementType element)
     {
         switch (element)
         {
@@ -97,9 +97,7 @@ public class ElementalAttunement : ElementalistRelic
 
     public void SetElement(ElementType element)
     {
-        Character.Elementalist?  elementalist = GetElementalist();
-
-        if (elementalist != null)
+        if (this.Owner.Character is Character.Elementalist elementalist)
         {
             ApplyPowerForElement(element);
             elementalist.SetElementCycle(CycleType.Primary, element);

@@ -12,7 +12,7 @@ namespace Elementalist.ElementalistCode.Powers;
 public class WaterPower : ElementalistPower
 {
     public override PowerType Type => PowerType.Buff;
-    public override PowerStackType StackType => PowerStackType.None;
+    public override PowerStackType StackType => PowerStackType.Counter;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new EnergyVar(1)];
 
