@@ -26,8 +26,6 @@ public class TheBoulder() : ElementalistCard(3,
         if (play.Target == null)
             return;
         
-        //await CreatureCmd.Damage(choiceContext, play.Target, this.DynamicVars.Damage, this);
-        
         List<Task> damageTasks = new List<Task>();
         NRollingBoulderVfx? vfx = NRollingBoulderVfx.Create([play.Target], this.DynamicVars.Damage.BaseValue);
         // ISSUE: object of a compiler-generated type is created
