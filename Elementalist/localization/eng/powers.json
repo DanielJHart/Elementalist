@@ -37,5 +37,13 @@
 
   "ELEMENTALIST-HOT_ROCKS_POWER.title": "Hot Rocks",
   "ELEMENTALIST-HOT_ROCKS_POWER.description": "Gain [gold]Block[/gold] when [gold]Burn[/gold] is applied to target.",
-  "ELEMENTALIST-HOT_ROCKS_POWER.smartDescription": "Gain {Amount} [gold]Block[/gold] when [gold]Burn[/gold] is applied to this enemy."
+  "ELEMENTALIST-HOT_ROCKS_POWER.smartDescription": "Gain {Amount} [gold]Block[/gold] when [gold]Burn[/gold] is applied to this enemy.",
+
+  "ELEMENTALIST-DIVERT_POWER.title": "Divert",
+  "ELEMENTALIST-DIVERT_POWER.description": "You are covering another player. All attacks that would be directed towards them are redirected towards you.",
+  "ELEMENTALIST-DIVERT_POWER.smartDescription": "You are covering [gold]{Covering}[/gold]. All attacks that would be directed towards them are redirected towards you.",
+
+  "ELEMENTALIST-DIVERTED_POWER.title": "Diverted",
+  "ELEMENTALIST-DIVERTED_POWER.description": "",
+  "ELEMENTALIST-DIVERTED_POWER.smartDescription": ""
 }

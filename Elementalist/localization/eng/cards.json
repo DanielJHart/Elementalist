@@ -101,5 +101,8 @@
   "ELEMENTALIST-ALIGN.description": "Aligns both element stances.",
 
   "ELEMENTALIST-CRUMBLING_ROCK.title": "Crumbling Rock",
-  "ELEMENTALIST-CRUMBLING_ROCK.description": "Deal {Damage:diff()} damage. \nPermanently decrease this card's damage by {Decrease:diff()}."
+  "ELEMENTALIST-CRUMBLING_ROCK.description": "Deal {Damage:diff()} damage. \nPermanently decrease this card's damage by {Decrease:diff()}.",
+
+  "ELEMENTALIST-DIVERT.title": "Divert",
+  "ELEMENTALIST-DIVERT.description": "Redirect all incoming attacks that would be dealt to another player this turn to you. In in [gold]Earth[/gold] stance, damage is halved."
 }
