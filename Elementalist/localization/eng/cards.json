@@ -92,5 +92,8 @@
   "ELEMENTALIST-PULVERIZE.description": "Deal {Damage:diff()} damage. \nIgnores [gold]Block[/gold].",
 
   "ELEMENTALIST-FOUNTAIN_OF_YOUTH.title": "Fountain Of Youth",
-  "ELEMENTALIST-FOUNTAIN_OF_YOUTH.description": "At the start of your turn, gain {Energy:energyIcons()}."
+  "ELEMENTALIST-FOUNTAIN_OF_YOUTH.description": "At the start of your turn, gain {Energy:energyIcons()}.",
+
+  "ELEMENTALIST-HOT_ROCKS.title": "Hot Rocks",
+  "ELEMENTALIST-HOT_ROCKS.description": "Gain {Block:diff()} [gold]Block[/gold] when you apply [gold]Burn[/gold]."
 }

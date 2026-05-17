@@ -33,5 +33,9 @@
 
   "ELEMENTALIST-FOUNTAIN_OF_YOUTH_POWER.title": "Fountain Of Youth",
   "ELEMENTALIST-FOUNTAIN_OF_YOUTH_POWER.description": "Increased extra energy per turn.",
-  "ELEMENTALIST-FOUNTAIN_OF_YOUTH_POWER.smartDescription": "At the start of your turn, gain {Amount:energyIcons()}."
+  "ELEMENTALIST-FOUNTAIN_OF_YOUTH_POWER.smartDescription": "At the start of your turn, gain {Amount:energyIcons()}.",
+
+  "ELEMENTALIST-HOT_ROCKS_POWER.title": "Hot Rocks",
+  "ELEMENTALIST-HOT_ROCKS_POWER.description": "Gain [gold]Block[/gold] when [gold]Burn[/gold] is applied to target.",
+  "ELEMENTALIST-HOT_ROCKS_POWER.smartDescription": "Gain {Amount} [gold]Block[/gold] when [gold]Burn[/gold] is applied to this enemy."
 }
